@@ -7,6 +7,7 @@ powercess 组织的 Agent Skills 集合。每个技能一个目录，遵循 [Age
 | 技能 | 说明 |
 | --- | --- |
 | [`bun-mode-manager`](skills/bun-mode-manager/SKILL.md) | 按项目需要设计或扩展 `bun run mode:*` 开发管理工具：统一运行入口、强制人类可读的彩色状态面板与分组帮助、本地自签 HTTPS、基于仓库身份的资源隔离；按需支持模式切换、容器增量构建与自定义任务。 |
+| [`esp32-idf-workflow`](skills/esp32-idf-workflow/SKILL.md) | 在 ESP32/ESP32-S3 项目里建立可复现的 ESP-IDF 构建、烧写与 QEMU 回归流程：环境变量覆盖被写死的工具链路径、分区表与固件大小核验、串口烧写与日志抓取、CI 里无硬件的冒烟测试。 |
 
 ## 安装
 
